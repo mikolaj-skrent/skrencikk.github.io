@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            height: 80vh; 
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ol class="menu">
+            <li style="width:20%;">
+            <a href="#">Strona główna</a>
+            <ul> 
+                <li><a href="strona glowna.html">Strona Główna</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="podstrona tem. 1.html">??</a></li>
+                <li><a href="podstrona tem. 2.html">???</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+    </header>
+    <main>
+        <h2>Skontaktuj się z nami</h2>
+        <section class="contact">
+            <div class="container">
+                <h1 class="animate__animated animate__fadeIn">Kontakt</h1>
+                <form class="animate__animated animate__fadeIn">
+                    <label for="name">Imię, Nazwisko (opcjonalnie):</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <!-- Pole na hasło -->
+                    <label for="password">Hasło:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Treść wiadomości:</label>
+                    <textarea id="message" name="message" required></textarea>
+    
+                    <button type="submit">Wyślij</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Strona Informatyczna</p>
+    </footer>
+</body>
+</html>
