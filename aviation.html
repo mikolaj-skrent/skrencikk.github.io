@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotnictwo | Militaria i Lotnictwo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo-container">
+            <svg class="logo" width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#004d00;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <circle cx="50" cy="50" r="45" fill="url(#logoGradient)" />
+                <path d="M50 15 L65 40 L80 25 L65 45 L85 55 L60 55 L50 80 L40 55 L15 55 L35 45 L20 25 L35 40 Z" fill="#000000" stroke="#004d00" stroke-width="1.5" />
+                <circle cx="50" cy="50" r="10" fill="#004d00" stroke="#000000" stroke-width="1" />
+                <path d="M30 70 Q50 80 70 70" fill="none" stroke="#000000" stroke-width="2" />
+            </svg>
+            <h2>Militaria i Lotnictwo</h2>
+        </div>
+        <ol class="menu">
+            <li>
+                <a href="#"><i class="fas fa-home"></i> Menu</a>
+                <ul> 
+                    <li><a href="index.html">Strona główna</a></li>
+                    <li><a href="military.html">Militaria</a></li>
+                    <li><a href="aviation.html">Lotnictwo</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </li>
+        </ol>
+        
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Lotnictwo</h1>
+            <p>Odkryj fascynujący świat lotnictwa, od historycznych samolotów po nowoczesne odrzutowce. Ta strona przedstawia różne aspekty technologii lotniczej, historii i osiągnięć.</p>
+        </section>
+
+     
+        <section>
+            <h2>Kategorie lotnictwa</h2>
+            <div class="accordion">
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Lotnictwo komercyjne</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Lotnictwo komercyjne obejmuje eksploatację statków powietrznych do wynajęcia, przewożących pasażerów lub ładunki. Branża ta znacznie się rozwinęła od pierwszego lotu komercyjnego w 1914 roku.</p>
+                        <p>Główni producenci samolotów komercyjnych to:</p>
+                        <ul>
+                            <li>Airbus</li>
+                            <li>Boeing</li>
+                            <li>Embraer</li>
+                            <li>Bombardier</li>
+                        </ul>
+                    </div>
+                </div>
+                
+               
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Lotnictwo wojskowe</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Lotnictwo wojskowe obejmuje wykorzystanie samolotów i innych maszyn latających do celów wojennych. Obejmuje to myśliwce, bombowce, samoloty rozpoznawcze i transportowe.</p>
+                        <p>Znane samoloty wojskowe to:</p>
+                        <ul>
+                            <li>F-22 Raptor</li>
+                            <li>F-35 Lightning II</li>
+                            <li>Su-57</li>
+                            <li>Eurofighter Typhoon</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Lotnictwo ogólne</h3>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Lotnictwo ogólne odnosi się do wszystkich operacji lotnictwa cywilnego innych niż regularne usługi lotnicze. Obejmuje to loty prywatne, szkolenia lotnicze, fotografię lotniczą i wiele innych.</p>
+                        <p>Popularne samoloty lotnictwa ogólnego to:</p>
+                        <ul>
+                            <li>Cessna 172</li>
+                            <li>Piper PA-28</li>
+                            <li>Beechcraft Bonanza</li>
+                            <li>Cirrus SR22</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      
+        <section>
+            <h2>Porównanie słynnych samolotów</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Samolot</th>
+                        <th>Typ</th>
+                        <th>Prędkość maks. (km/h)</th>
+                        <th>Zasięg (km)</th>
+                        <th>Pierwszy lot</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Boeing 747</td>
+                        <td>Komercyjny</td>
+                        <td>988</td>
+                        <td>14 815</td>
+                        <td>1969</td>
+                    </tr>
+                    <tr>
+                        <td>F-22 Raptor</td>
+                        <td>Myśliwiec wojskowy</td>
+                        <td>2 414</td>
+                        <td>3 000</td>
+                        <td>1997</td>
+                    </tr>
+                    <tr>
+                        <td>Airbus A380</td>
+                        <td>Komercyjny</td>
+                        <td>1 020</td>
+                        <td>15 700</td>
+                        <td>2005</td>
+                    </tr>
+                    <tr>
+                        <td>SR-71 Blackbird</td>
+                        <td>Wojskowy rozpoznawczy</td>
+                        <td>3 540</td>
+                        <td>5 400</td>
+                        <td>1964</td>
+                    </tr>
+                    <tr>
+                        <td>Cessna 172</td>
+                        <td>Lotnictwo ogólne</td>
+                        <td>302</td>
+                        <td>1 289</td>
+                        <td>1955</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+     
+        <section>
+            <h2>Galeria lotnicza</h2>
+            <div class="gallery">
+                
+                <div class="gallery-item">
+                    <img src="boeing747.jpg" alt="Samolot Boeing 747">
+                </div>
+                <div class="gallery-item">
+                    <img src="f15.jpg" alt="Samolot wielozadaniowy F15 E">
+                </div>
+                <div class="gallery-item">
+                    <img src="ka52.jpg" alt="Śmigłowiec KA-52">
+                </div>
+                <div class="gallery-item">
+                    <img src="Gulfstream G650.jpg" alt="Samolot prywatny Gulfstream G650">
+                </div>
+                <div class="gallery-item">
+                    <img src="me264.jpg" alt="Bombowiec Me264">
+                </div>
+                <div class="gallery-item">
+                    <img src="kokpit f16 c.jpg" alt="Kokpit samolotu F16 C">
+                </div>
+            </div>
+        </section>
+
+      
+        <section>
+            <h2>Filmy o lotnictwie</h2>
+            <div class="video-container">
+               
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WoRAq7vn9pE" title="Odtwarzacz wideo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div class="video-container">
+               
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8ydoFuOYSzw" title="Odtwarzacz wideo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Militaria i Lotnictwo </p>
+    </footer>
+
+   
+</body>
+</html>
